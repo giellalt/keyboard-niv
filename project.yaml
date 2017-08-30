@@ -31,7 +31,7 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.niv
     bundleName: *bundleName
-    icon: images/niv-icon.png
+    icon: images/1280px-Flag_of_Khabarovsk_Krai.svg.png
 
   osx:
     <<: *AppleID
