@@ -12,12 +12,12 @@ modes:
 # mobile layouts:
   mobile-default: |
     й ц у к е н г ш щ з х ъ
-    ф ы в а п р о л д ж э ’
+    ф ы в а п р о л д ж э ʼ
     ё я ч с м и т ь б ю
   # shift
   mobile-shift: |
     Й Ц У К Е Н Г Ш Щ З Х Ъ
-    Ф Ы В А П Р О Л Д Ж Э ’
+    Ф Ы В А П Р О Л Д Ж Э ʼ
     Ё Я Ч С М И Т Ь Б Ю
 
 # mobile keyboards properties:
