@@ -1,12 +1,12 @@
-internalName: niv_keyboard
+internalName: niv
 
 locales:
   en:
-    name: &bundleName "Gilyak Keyboards"
-    description: "Mobile OS keyboards for the Gilyak language from the Divvun group at UiT."
+    name: &bundleName "Nivkh Keyboards"
+    description: "Keyboards for the Nivkh language."
   nb:
-    name: "Gilyak tastatur"
-    description: "Mobiltastatur for Gilyak fra Divvun-gruppa."
+    name: "Nivkh-tastatur"
+    description: "Mobiltastatur for Nivkh."
 
 author: The Divvun Group, UiT Norgga árktalaš universitehta
 email: feedback@divvun.no
@@ -14,7 +14,7 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [niv-mac, niv-win]
+layouts: [niv-mobile, niv-mac, niv-win]
 
 version: 1.0
 build: 1

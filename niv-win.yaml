@@ -7,6 +7,13 @@ displayNames:
 
 locale: niv
 
+supportedTargets: [win, x11, svg]
+
+targets:
+  win:
+    locale: niv-Cyrl
+    languageName: "Нивхгу диф"
+
 modes:
   # default
   iso-default: |
@@ -38,3 +45,26 @@ modes:
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
     \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
+# other desktop keyboard properties:
+decimal: ","
+
+deadKeys:
+  iso-default: ['´', 'ˇ']
+  iso-shift: ['`', '~']
+  iso-caps: ['´', 'ˇ']
+  iso-caps+shift: ['`', '~']
+  iso-alt: ['^', '´']
+  iso-caps+alt: ['´']
+
+transforms:
+  "`":
+    " ": "`"
+    a: à
+    A: À
+    e: è
+    E: È
+    o: ò
+    O: Ò
+    u: ù
+    U: Ù
