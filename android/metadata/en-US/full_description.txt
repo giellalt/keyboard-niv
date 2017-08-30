@@ -1,0 +1,1 @@
+A keyboard app to enable easy typing of the Nivkh language of far east Russia. Nivkh uses a number of Cyrillic letters not used by Russian.
