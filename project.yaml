@@ -22,7 +22,7 @@ build: 1
 targets:
   android:
     packageId: no.uit.giella.keyboards.niv
-    icon: images/1280px-Flag_of_Khabarovsk_Krai.svg.png
+    icon: images/niv-app-icon.png
     keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
     keyAlias: sami_keyboard
 
@@ -31,7 +31,7 @@ targets:
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.niv
     bundleName: *bundleName
-    icon: images/1280px-Flag_of_Khabarovsk_Krai.svg.png
+    icon: images/niv-app-icon.png
 
   osx:
     <<: *AppleID
