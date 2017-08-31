@@ -46,5 +46,5 @@ styles:
       backspace: [3, right, fill]
 
 strings:
-  space: gaska
-  return: linnjámolsun
+  space: Пробел
+  return: Ввод
