@@ -17,7 +17,7 @@ organisation: UiT Norgga árktalaš universitehta
 layouts: [niv-mobile, niv-mac, niv-win]
 
 version: 1.0.1
-build: 1
+build: 2
 
 targets:
   android:
