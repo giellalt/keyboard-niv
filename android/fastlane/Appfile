@@ -1,0 +1,2 @@
+json_key_file "/Users/sjur/Downloads/GooglePlayAndroidDeveloper-1a4c06b019ca.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "no.uit.giella.keyboards.niv"

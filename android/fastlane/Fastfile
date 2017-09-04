@@ -6,6 +6,7 @@ platform :android do
 
   desc "Alpha release app. Deploy a new version to the Google Play Store - Alpha channel"
   lane :alpha do |options|
+
 #    gradle(task: "clean")
 #    
 #    gradle(task: "assemble")
@@ -22,8 +23,9 @@ platform :android do
 #    gradle(task: "test")
   
   supply(
+  	 check_superseded_tracks: 
      track: 'alpha',
-     apk: "#{lane_context[SharedValues::SIGNED_APK_PATH]}"
+     apk: "niv-1.0.1_release.apk"
    )
   end
 end
